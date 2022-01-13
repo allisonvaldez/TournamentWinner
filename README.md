@@ -14,10 +14,10 @@ increase by 3 points.
 
 The arrays are noted as follows:
 competitions = [homeTeam, awayTeam]
-results = results[i], is defaulted to keep account of the homeTeam and is 1 
-if they will advance and 0 if the awayTeam won.
+results = results[i], is defaulted to keep account of the homeTeam's wins (1 
+if win and 0 if lost). A team will only advice if they win.
 
-Sample output: How to read the output, 
+Sample output: 
 competitions = [
 ["teamOne", "teamTwo",
 "teamTwo", "teamThree",
@@ -25,6 +25,10 @@ competitions = [
 ]
 results = [0,0,1]
 
+It should be read as follows: 
+1. teamTwo won against teamOne
+2. teamThree won against teamTwo
+3. teamThree won against teamOne
 
 
 ## Running The Project
