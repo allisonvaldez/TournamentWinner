@@ -10,7 +10,7 @@ This exercise demonstrates an exercise of a competition that follows a
 round-robin elimination style (where only the winner advances). Each team is 
 either designated as a home or away team. There are no ties and only one 
 team can advance to the next round of competitions. Each winning score will 
-increase by 3 points.
+increase by 3 points. Each team's name should be limited to only 30 characters.
 
 The arrays are noted as follows:
 competitions = [homeTeam, awayTeam]
