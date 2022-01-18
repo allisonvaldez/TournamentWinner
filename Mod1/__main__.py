@@ -59,3 +59,7 @@ def update_scores(team, points, scores):
         scores[team] = 0
 
     scores[team] += points
+
+
+print(tournament_winner(competitions=[["HTML", "C#"], ["C#", "Python"],
+                                      "Python", "HTML"], results=[0, 0, 1]))
